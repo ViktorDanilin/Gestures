@@ -16,17 +16,20 @@
 * CVzone
 * Tensorflow
 * Keras
+* Mediapipe
 
 ## Project Installation (for Windows)
-###1. Установка библиотек 
+### 1. Установка библиотек 
 
     pip install opencv-python
 
     pip install numpy
 
     pip install cvzone
+
+    pip install mediapipe
    
-###2. Установка tensorflow и keras
+### 2. Установка tensorflow и keras
    
     conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
     
@@ -36,7 +39,7 @@
 
     python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
     
-###3. Установка проекта
+### 3. Установка проекта
 
 Открываем через терминал папку, куда планируется монтировать проект
     
@@ -45,9 +48,28 @@
     git clone https://github.com/ViktorDanilin/Gestures.git
 
     cd Gestures/
-
+## Run program 
     python3 SignRecognizer.py
 
 ## Demonstration video
 
 [Demo video](https://github.com/ViktorDanilin/Gestures/assets/42595661/e3d70ff4-7e79-4e51-be9c-5771c48a6857)
+
+# Finger Counter
+
+## Description
+
+Программа для подсчета количества пальцев пользователя
+
+## Used libraries
+
+* OpenCV
+* Mediapipe 
+
+## Run program
+
+    python3 FingerCounter.py
+
+## Demonstration video
+
+[Demo video](https://github.com/ViktorDanilin/Gestures/assets/42595661/989dcb16-b3cf-4f20-bbe4-60372f91affd)
