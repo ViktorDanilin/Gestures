@@ -1,5 +1,7 @@
 # Gestures
 
+## [documentation link](https://viktordanilin.github.io/Gestures/)
+
 ## Project Description
 #### Это проект для людей с ограниченными возможностями и заинтересованных лиц, которые хотят выучить язык жестов
 

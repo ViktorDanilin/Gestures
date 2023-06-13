@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import math
-import time
 from cvzone.HandTrackingModule import HandDetector
 from cvzone.ClassificationModule import Classifier
 
